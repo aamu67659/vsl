@@ -70,21 +70,21 @@
 - checkbox true or false vaule
 - radio it is used for user to pick a single vaule or of multiple vaules
 - e.g
-- <br/>
-- <p> gender </p>
-- <form>
-- <label>
-- <b>male</b>
-- <input type="radio" name="gender"/>
-- </label>
-- <label>
-- <b>female</b>
-- <input>type="radio" name=gender"/>
-- </label>
+- *<br/>
+- *<p> gender </p>
+- *<form>
+- *<label>
+- *<b>male</b>
+- *<input type="radio" name="gender"/>
+- *</label>
+- *<label>
+- *<b>female</b>
+- *<input>type="radio" name=gender"/>
+- *</label>
 - for every input there must be a vaule
 - N:B cloaking in and cloaking out = logging in and signing out home work
 - 5 label is used to group form field or input field
-- is used to write a bold text (<b>)
+- is used to write a bold text (*<b>)
 - CSS (cascadinig style sheet)
 - is use for styling to our wbpage and giving it asththics and also to putting html element in motion.
 - css can make our webpage visualling appeling 
