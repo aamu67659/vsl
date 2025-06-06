@@ -38,7 +38,7 @@
 - <main> </main>
 - </-- using th main span tag element-->
 - span tag is use to maintain sprtat horizontal line
-- (<h1>hello <span sty="color: rd:")
+- ( hello <span style="color: rd:")
 - </-- using th main bold tag element-->
 - strong tag it is use for bold txt on our webpage
 - </-- using the anchor tag element-->
