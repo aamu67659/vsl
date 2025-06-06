@@ -71,14 +71,14 @@
 - radio it is used for user to pick a single vaule or of multiple vaules
 - e.g
 - *<br/>
-- *<p> gender </p>
+- *<p> </p>
 - *<form>
 - *<label>
-- *<b>male</b>
+- *<b></b>
 - *<input type="radio" name="gender"/>
 - *</label>
 - *<label>
-- *<b>female</b>
+- *<b></b>
 - *<input>type="radio" name=gender"/>
 - *</label>
 - for every input there must be a vaule
@@ -99,7 +99,7 @@
  background-color: black
  }
 - heading styling
-- 1.) all our styling will be in our html fils in the heading part of our html file
+- 1. all our styling will be in our html fils in the heading part of our html file
 - <style>
 - style {}
 - </style>
@@ -127,7 +127,7 @@ CSS Properties
 - ii border-top: ;
 - iii border-left: ;
 - iii border-right: ;
-- Solid(kind or the nature of our border i.solid (____) ii dash(------) iii dotted(........)
+- Solid (kind or the nature of our border i.solid (____) ii dash(------) iii dotted(........)
 PX (unit of measurement) 
 - i px -------- pixels
 - ii rem ------ ren ------ 1ren=16px 
