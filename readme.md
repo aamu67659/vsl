@@ -13,7 +13,7 @@
 - styling can be used to style any element it has to be embbleded in an element
 - A=atribute P= property V= vaule
 - styling EG <h1 style="color:purple"> To do application</h1> 
- A P V
+ - A P V
 - 4 input element it is used to recive informtion from the user it is a self enclosing tag
 - e.g <input/>
 - input type is to specify the type of input 
@@ -89,7 +89,7 @@
 - N:B cloaking in and cloaking out = logging in and signing out home work
 - 5 label is used to group form field or input field
 -<b> is used to write a bold text
-CSS (cascadinig style sheet)
+- CSS (cascadinig style sheet)
 - is use for styling to our wbpage and giving it asththics and also to putting html element in motion.
 - css can make our webpage visualling appeling 
 - how to connet ccs you put in the hmtl body 
@@ -139,7 +139,7 @@ PX (unit of measurement)
 - iiii vw ---------- view weight ---------------100vh(full screen width) or 50vh half of the screen width
 - iiiii % (percentage) 
 css more properties
-- # box model
+- box model
 - ia. padding (space within a box that surround element inside the container)
 - padding variant i.e padding left and so on 
 - padding vaule i.e (Vaule)10px=vertical (Vaule)30px=horizontal
