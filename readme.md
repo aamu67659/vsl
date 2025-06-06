@@ -84,7 +84,7 @@
 - for every input there must be a vaule
 - N:B cloaking in and cloaking out = logging in and signing out home work
 - 5 label is used to group form field or input field
--<b> is used to write a bold text
+- is used to write a bold text (<b>)
 - CSS (cascadinig style sheet)
 - is use for styling to our wbpage and giving it asththics and also to putting html element in motion.
 - css can make our webpage visualling appeling 
