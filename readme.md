@@ -2,7 +2,7 @@
 - html is d skelenta form of my webpage
 - html element to know 
 - 1 headings element (sub heading ) eg h1 - h6 not self enclosings
-- opening tag <h1> closing tag </h1>
+- opening tag (<h1> closing tag </h1>)
 - whatever is in any opening tag and closing tag is called txt node
 - 2 paragraph tags opening tag <p> and closing tag </p> not self enclosing
 - 3 image element image tag is self enclosing <img/> e.g <img src=""/>
@@ -13,7 +13,7 @@
 - 3 height and width --------- height="" , width ""
 - styling can be used to style any element it has to be embbleded in an element
 - A=atribute P= property V= vaule
-- styling EG <h1 style="color:purple"> To do application</h1> 
+- styling EG (<h1 style="color:purple"> To do application</h1> )
  - A P V
 - 4 input element it is used to recive informtion from the user it is a self enclosing tag
 - e.g <input/>
@@ -37,7 +37,7 @@
 - <main> </main>
 - </-- using th main span tag element-->
 - span tag is use to maintain sprtat horizontal line
-- <h1>hllo <span sty="color: rd:"
+- (<h1>hello <span sty="color: rd:")
 - </-- using th main bold tag element-->
 - strong tag it is use for bold txt on our webpage
 - </-- using the anchor tag element-->
@@ -52,7 +52,7 @@
 - <footr>
 - fullstack class &copy; -- copyright tag
 - </footr>
-- GIT_
+- GIT
 - git remote -v 
 - git add .
 - git commit -m "the changes added"
@@ -60,12 +60,6 @@
 - git checkout
 - git pull
 - git push
-- Html element to know 
-- 1 headings element (sub heading ) eg h1 - h6 not self enclosings
-- opening tag <h1> closing tag </h1>
-- whatever is in any opening tag and closing tag is called txt node
-- 2 paragraph tags opening tag <p> and closing tag </p> not self enclosing
-- 3 image element image tag is self enclosing <img/> e.g <img src=""/>
 - attribute differentiate html element by state
 - e.g 
 - 1 Source--src="" two type of source remote and locally
