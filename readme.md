@@ -1,31 +1,29 @@
-### HTML
-
 - html is d skelenta form of my webpage
 - html element to know 
-- 1 headings element  (sub heading ) eg h1 - h6  not self enclosings
-- opening tag <h1>    closing tag </h1>
+- 1 headings element (sub heading ) eg h1 - h6 not self enclosings
+- opening tag <h1> closing tag </h1>
 - whatever is in any opening tag and closing tag is called txt node
-- 2 paragraph tags opening tag <p> and closing tag </p>   not self enclosing
-- 3 image element  image tag is self enclosing <img/> e.g <img src=""/>
+- 2 paragraph tags opening tag <p> and closing tag </p> not self enclosing
+- 3 image element image tag is self enclosing <img/> e.g <img src=""/>
 - attribute differentiate html element by state
 - e.g 
-- 1 Source--src=""   two type of source remote and locally
-- 2 alternativ ---- alt=""  
-- 3 height and width --------- height=""   , width ""
+- 1 Source--src="" two type of source remote and locally
+- 2 alternativ ---- alt="" 
+- 3 height and width --------- height="" , width ""
 - styling can be used to style any element it has to be embbleded in an element
 - A=atribute P= property V= vaule
-- styling EG <h1  style="color:purple"> To do application</h1> 
-                A      P      V
-- 4 input element   it is used to recive informtion from the user   it is a self enclosing tag
+- styling EG <h1 style="color:purple"> To do application</h1> 
+ A P V
+- 4 input element it is used to recive informtion from the user it is a self enclosing tag
 - e.g <input/>
-- input type  is to specify the type of input 
+- input type is to specify the type of input 
 - i. txt input ----- <input type="text"/> 
 - ib. placeholder txt input ------- <input type"text" placeholder="ENTER FULL NAME"/>
-- ii. required attribute ------ information is a must for the input .e.g  <input type"text" placeholder="ENTER FULL NAME" required/>
+- ii. required attribute ------ information is a must for the input .e.g <input type"text" placeholder="ENTER FULL NAME" required/>
 - iii types of input element
-- email  <input type="email" placeholder="EMAIL" required/>
+- email <input type="email" placeholder="EMAIL" required/>
 - phone or tel <input type="tel" placeholder="TEL" required/>
-- range    <input type="range" min="0" max="100" required/>
+- range <input type="range" min="0" max="100" required/>
 - sction tag for crating a sctions in your wbpag and giving a spcifi information on mdia contct
 - <sction>
 - </sction>
@@ -35,10 +33,10 @@
 -</nav>
 - </-- using th main tag element-->
 - main tag is use to display a catchy images of our webpage
-- <main>  </main>
+- <main> </main>
 - </-- using th main span tag element-->
 - span tag is use to maintain sprtat horizontal line
-- <h1>hllo <span  sty="color: rd:"
+- <h1>hllo <span sty="color: rd:"
 - </-- using th main bold tag element-->
 - strong tag it is use for bold txt on our webpage
 - </-- using the anchor tag element-->
@@ -61,62 +59,54 @@
 - git checkout
 - git pull
 - git push
-
 - Html element to know 
-- 1 headings element  (sub heading ) eg h1 - h6   not self enclosings
-- opening tag <h1>    closing tag </h1>
+- 1 headings element (sub heading ) eg h1 - h6 not self enclosings
+- opening tag <h1> closing tag </h1>
 - whatever is in any opening tag and closing tag is called txt node
-- 2 paragraph tags opening tag <p> and closing tag </p>   not self enclosing
-- 3 image element  image tag is self enclosing <img/> e.g <img src=""/>
+- 2 paragraph tags opening tag <p> and closing tag </p> not self enclosing
+- 3 image element image tag is self enclosing <img/> e.g <img src=""/>
 - attribute differentiate html element by state
 - e.g 
-- 1 Source--src=""   two type of source remote and locally
-- 2 alternativ ---- alt=""  
-- 3 height and width --------- height=""   , width "" 
-- time  <input type="input" required/>
+- 1 Source--src="" two type of source remote and locally
+- 2 alternativ ---- alt="" 
+- 3 height and width --------- height="" , width "" 
+- time <input type="input" required/>
 - checkbox true or false vaule
-- radio  it is used for user to pick a single vaule or of multiple vaules
+- radio it is used for user to pick a single vaule or of multiple vaules
 - e.g
 - <br/>
 - <p> gender </p>
 - <form>
-
 - <label>
 - <b>male</b>
 - <input type="radio" name="gender"/>
 - </label>
-
 - <label>
 - <b>female</b>
 - <input>type="radio" name=gender"/>
 - </label>
-
 - for every input there must be a vaule
 - N:B cloaking in and cloaking out = logging in and signing out home work
 - 5 label is used to group form field or input field
 -<b> is used to write a bold text
-
 CSS (cascadinig style sheet)
 - is use for styling to our wbpage and giving it asththics and also to putting html element in motion.
 - css can make our webpage visualling appeling 
 - how to connet ccs you put in the hmtl body 
 - you always connect it from the html hading 
 - external import styling 
-- <link/>  (tag lmnt )
+- <link/> (tag lmnt )
 - how to integrate style.css with index.html
 - <link rel="stylesheet" href="style.css"/>
 - <link rel="stylesheet href="style.css"/>
 - body {
-  background-color: black
-  }
-
+ background-color: black
+ }
 - heading styling
 - 1.) all our styling will be in our html fils in the heading part of our html file
-
 - <style>
 - style {}
 - </style>
-
 - two ways to refrence an element
 - i class selector
 - ii iD selector
@@ -124,52 +114,44 @@ CSS (cascadinig style sheet)
 - <style>
 - body{background-color:}
 - </style>
-
-- i class selector  it start with (.)
+- i class selector it start with (.)
 - ii iD selector it start with (#)
-
 - <button id"mybutton" onclick="">click </button>
 - <button id"mybutton" onclick="">click </button>
-- ii iD selector it start with (#) #mybutton{background-color: red;}  for css
-- i class selector  it start with (.)  .mybutton{background-color: red;} for css
-
-
+- ii iD selector it start with (#) #mybutton{background-color: red;} for css
+- i class selector it start with (.) .mybutton{background-color: red;} for css
 -how to use mailto to have user to mail us dirctly from our webpage 
-
 CSS Properties
-- i. height .  (how tall )  
+- i. height . (how tall ) 
 - ii. width (how wide)
 - iii box models
 - iiii selectors (types)
-- border (how to give apprance to webpage)  it can be of any size
+- border (how to give apprance to webpage) it can be of any size
 - i border-bottom: ;
 - ii border-top: ;
-- iii  border-left: ;
+- iii border-left: ;
 - iii border-right: ;
 - Solid(kind or the nature of our border i.solid (____) ii dash(------) iii dotted(........)
-
-PX (unit of measurement)  
+PX (unit of measurement) 
 - i px -------- pixels
-- ii rem  ------ ren ------ 1ren=16px 
+- ii rem ------ ren ------ 1ren=16px 
 - iii vh -------- view height ---------------- 100vh(full screen height) or 50vh half of the screen height
 - iiii vw ---------- view weight ---------------100vh(full screen width) or 50vh half of the screen width
 - iiiii % (percentage) 
-
 css more properties
 - # box model
 - ia. padding (space within a box that surround element inside the container)
 - padding variant i.e padding left and so on 
-- padding vaule i.e  (Vaule)10px=vertical  (Vaule)30px=horizontal
+- padding vaule i.e (Vaule)10px=vertical (Vaule)30px=horizontal
 - border (is the outside of our box)
 - ib. margin (it is the gap between two element or to it parent container) it can happen inside or outside of container
 - marin variant i.e margin left and so on 
-
 - Display
 - it is a css properties that we use to determin the layout of our html element 
 - grid (2 dimemsion)
 - i grid-template-columns
 - ii grid-template-areas
 - flex (1 dimemsion)
-- block  (displaying an lmnt by consumming the whole horizontal line )
+- block (displaying an lmnt by consumming the whole horizontal line )
 - inline ()
 - inline block ()
