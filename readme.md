@@ -70,17 +70,17 @@
 - checkbox true or false vaule
 - radio it is used for user to pick a single vaule or of multiple vaules
 - e.g
-- *<br/>
-- *<p> </p>
-- *<form>
-- *<label>
-- *<b></b>
-- *<input type="radio" name="gender"/>
-- *</label>
-- *<label>
-- *<b></b>
-- *<input>type="radio" name=gender"/>
-- *</label>
+- * <br/>
+- * <p> </p>
+- * <form>
+- * <label>
+- * <b></b>
+- * <input type="radio" name="gender"/>
+- * </label>
+- * <label>
+- * <b></b>
+- * <input>type="radio" name=gender"/>
+- * </label>
 - for every input there must be a vaule
 - N:B cloaking in and cloaking out = logging in and signing out home work
 - 5 label is used to group form field or input field
