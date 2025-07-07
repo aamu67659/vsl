@@ -1,0 +1,47 @@
+h1 {
+  animation: slideIn;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  text-shadow: -5px 6px 2px green;
+  animation-iteration-count: 2;
+}
+
+@keyframes slideIn {
+  from {
+    transform: rotate(270deg);
+  }
+
+  to {
+    transform: rotate(0);
+  }
+}
+
+#box1 {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: lightgray;
+  box-shadow: 4px 6px 4px gray;
+  transition: transform;
+  transition-duration: 1s;
+  transition-delay: 0.3s;
+  transition-timing-function: ease-in;
+}
+
+#box1:hover {
+  transform: scale(1.5, 0);
+}
+
+a:visited {
+  color: tomato;
+}
+
+a:hover {
+  background-color: red;
+  color: white;
+}
+
+a:active {
+  color: black;
+}
