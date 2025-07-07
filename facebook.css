@@ -1,98 +1,98 @@
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-    min-height: 100vh;
+  height: 100vh;
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.left {
-    flex: 1;
-    padding-right: 40px;
+.heading_container,
+.form_container {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.left h1 {
-    color: blue;
-    font-size: 60px;
-    margin-bottom: 20px;
+.heading_container .sub_heading_container {
+  height: auto;
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.heading_container .sub_heading_container p {
+  margin-top: -14px;
 }
 
-.left p {
-    font-size: 24px;
+.heading_container h1 {
+  color: blue;
 }
 
-.right {
-    width: 400px;
+.heading_container p {
+  font-size: 1rem;
 }
 
-.login-form {
-background-color: white;
-padding: 20px;
-border-radius: 10px;
-box-shadow: 0 2px 8px rgba(0, 0, 0.1);
-display: flex;
-flex-direction: column;
-gap: 15px;
+.form_container form {
+  height: auto;
+  background-color: white;
+  width: 18rem;
+  border-radius: 5px;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  padding: 0.7rem;
 }
 
-.login form input{
-padding: 15px;
-font-size: 16px;
-border: 1px solid whitesmoke;
-border-radius: 6px;
+.form_container form input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  outline: none;
+}
+.form_container form input:hover {
+  outline: 1px solid rgb(95, 95, 247);
+}
+.form_container form button {
+  background-color: rgb(94, 94, 238);
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+.form_container form a {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(104, 104, 247);
+}
+.form_container form a:hover {
+  text-decoration: underline;
 }
 
-.login-btn{
-background-color: blue;
-color: white;
-font-size: 17px;
-font-weight: bold;
-border: none;
-border-radius: 6px;
-padding: 14px;
-cursor: pointer;
+.form_container form hr {
+  width: 100%;
+  border-top: 1px solid lightgray;
 }
 
-.login-btn:hover{
-background-color: blue;
+.form_container form #createBTN {
+  background-color: rgb(4, 180, 4);
+  width: 50%;
+  place-self: center;
 }
 
-.forgot {
-text-align: center;
-color: blue;
-text-decoration: none;
-font-size: 14px;
+@media screen and (max-width: 360px) {
+  .container {
+    flex-direction: column;
+  }
 }
 
-hr {
-border: none;
-height: 1px;
-background-color: silver;
-margin: 10px 0;
-}
-
-.create-btn {
-background-color: green;
-color: white;
-font-size: 16px;
-border: none;
-border-radius: 6px;
-padding: 14px;
-cursor: pointer;
-}
-
-.create-btn:hover {
-background-color: green;
-}
-
-.create-page {
-margin-top: 20px;
-text-align: center;
-font-size: 14px;
-}
-
-.create-page a{
-font-weight: bold;
-text-decoration: none;
-color: black;
+@media screen and (max-width: 414px) {
+  .container {
+    flex-direction: column-reverse;
+  }
 }
