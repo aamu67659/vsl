@@ -1,0 +1,100 @@
+.container {
+    display: grid;
+    border: 1px solid red;
+    height: 100vh;
+    grid-template-columns: repeat(1fr 3);
+    grid-template-areas: 
+    "item_1 item_2 item_2"
+    "item_1 item_3 item_4"
+    "item_1 item_5 item_5"
+}
+@keyframes item1Animation {
+    from{
+        transform: rotate(90deg);
+    }
+    to{
+        transform: rotate(0);
+    }
+}
+@keyframes item3Animation {
+    from{
+        transform: translateX(-150px);
+    }
+    to{
+        transform: translateX(0);
+
+    }
+}
+@keyframes item4Animation {
+    from{
+        transform: translateY(-150px);
+    }
+    to{
+        transform: translateY(0);
+
+    }
+}
+
+#item1 {
+    border: 1px solid black;
+    width: 100%;
+    background-color: blue;
+    grid-area: item_1;
+    animation: item1Animation;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+#item2 {
+    border: 1px solid yellow;
+    width: 100%;
+    background-color: purple;
+    grid-area: item_2;
+}
+#item3 {
+    border: 1px solid brown;
+    width: 100%;
+    background-color: green;
+    grid-area: item_3;
+    animation: item3Animation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+#item4 {
+    border: 1px solid grey;
+    width: 100%;
+    background-color: red;
+    grid-area: item_4;
+    animation: item4Animation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+#item5 {
+    border: 1px solid silver;
+    width: 100%;
+    background-color: gold;
+    grid-area: item_5;
+}
+
+
+nav {
+height: 50px;    
+border: 1px solid blue;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 2px 2px;
+background-color: gold;
+box-shadow: 0 6px 8px lightgrey;
+position: fixed;
+left: 0px;
+right: 0px;
+top: 0px;
+}
+  nav a{
+    border: 1px solid black;
+    padding: 2px 2px;
+    text-decoration: none;
+  }
