@@ -44,6 +44,7 @@
     animation-duration: 4s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    text-size-adjust: auto;
 }
 #item2 {
     border: 1px solid yellow;
