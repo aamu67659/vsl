@@ -42,25 +42,25 @@ var arrayelement = [10,
     "hello", 
     14.3, 
     { name: "oluwaseun" },
-     isAvailable=true, 
+     true, 
      42,
       "world",
        2,
      500, 
      { myage: 30 },
-      isConnected=false,
+      false,
        "welcome",1.577, 
        { key: "open" }, 
-       isActive = true, 
+       true, 
        -3, 
        "arsenal", 
        2.518, 
        { datavaule: [12, 24, 53] },
-        isActive =false,]
+        false,]
         console.log(arrayelement)
 
 var VSL = 
-[{deprtmentone: "basic computer ", 
+{deprtmentone: "basic computer ", 
 deprtmenttwo: "graphics design ", 
 deprtmentthree: "website design ", 
 deprtmentfour: "digital marketing ",
@@ -68,5 +68,5 @@ deprtmentfive: "social media marketing",
 deprtmentsix: "programming ", 
 deprtmentseven: "UI/UX ", 
 deprtmenteight: "cybersecurity ", 
-deprtmentnine: "data analysis"}]
+deprtmentnine: "data analysis"}
 console.log(VSL)
