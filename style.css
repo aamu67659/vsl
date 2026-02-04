@@ -1,4 +1,4 @@
-#mydiv{
+/* #mydiv{
 height: 400px;
 width: 800px;
 border: 1px solid red;
@@ -74,4 +74,25 @@ margin-top:100px ;
       "item_5"
       "item_6";
   }
+} */
+
+/* @keyframes slideout {
+
+} */
+@keyframes example {
+  from {transform: translateX(100px);
+  opacity: 0;
+}
+ 
+}
+p{
+  animation-name: example ;
+  animation-duration: 1s;
+  animation-timing-function:ease-in-out;
+  background-color: red;
+  animation-direction:reverse;
+}
+button{
+  background-color: black;
+  color: crimson;
 }
